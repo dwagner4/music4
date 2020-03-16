@@ -10,7 +10,7 @@ import {
   makeStyles
 } from "@material-ui/core";
 import { SkipPrevious, PlayArrow, SkipNext, Pause } from "@material-ui/icons";
-import { SongContext } from "../App";
+import { SongContext } from "../app-context";
 import { useQuery } from "@apollo/react-hooks";
 import { GET_QUEUED_SONGS } from "../graphql/queries";
 import ReactPlayer from "react-player";

@@ -12,7 +12,7 @@ import {
 import { PlayArrow, Save, Pause } from "@material-ui/icons";
 import { useMutation, useSubscription } from "@apollo/react-hooks";
 import { GET_SONGS } from "../graphql/subscriptions";
-import { SongContext } from "../App";
+import { SongContext } from "../app-context";
 import { ADD_OR_REMOVE_FROM_QUEUE } from "../graphql/mutations";
 
 function SongList() {
